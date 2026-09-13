@@ -1,4 +1,14 @@
  const products = [
+    
+     {
+        id : 0,
+        image : "https://www.nicepng.com/png/detail/52-526017_yummmmm-kfc-chicken-chickenbucket-bucket-fastfood-junk-kfc.png",
+        name : "KFC Chickenbucket",
+        Des: "Homemade beef burgers are so quick and simple to make!",
+        rating :"4.9",
+        price :"4.99",
+        title : "New",
+    },
     {
         id : 1,
         image : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVmvERGcebGxccGPvKyEymwvbrZ2-mGWrfFgL7A4xV4hkEn93MFqGx8Rk&s=10",
