@@ -14,6 +14,10 @@ import Contact from "./Page/Contact";
 import Khmersweet from "./Page/Khmersweet";
 import Login from "./Page/Login";
 import Register from "./Page/Register";
+import Account from "./Page/Account";
+import Orders from "./Page/Orders";
+import Address from "./Page/Address";
+import Settings from "./Page/Settings";
 const App = () => {
   return (
     <Router>
@@ -28,6 +32,10 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/account" element={<Account />} />
+        <Route path="/orders" element={<Orders />} />
+        <Route path="/address" element={<Address />} />
+        <Route path="/settings" element={<Settings />} />
       </Routes>
       <Footer />
 
