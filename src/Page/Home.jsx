@@ -15,7 +15,7 @@ const Home = () => {
           Experience the Taste of Cambodia
         </h2>
         </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 pt-2">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 pt-2 mx-2">
         {Data.slice(8,12).map((item) => (
           <ProductCard
             key={item.id}
