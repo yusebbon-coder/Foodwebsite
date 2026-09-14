@@ -11,13 +11,15 @@ import Food from "./Page/Food";
 import FoodKhmer from "./Page/FoodKhmer";
 import Khmer from "./Page/Khmer";
 import Contact from "./Page/Contact";
-import Khmersweet from "./Page/Khmersweet";
+import Khmersweet from "./Page/Khmersweet"
+import Drink from "./Page/Drink";
 import Login from "./Page/Login";
 import Register from "./Page/Register";
 import Account from "./Page/Account";
 import Orders from "./Page/Orders";
 import Address from "./Page/Address";
 import Settings from "./Page/Settings";
+import SearchProduct from "./Page/SearchProduct";
 const App = () => {
   return (
     <Router>
@@ -29,6 +31,7 @@ const App = () => {
         <Route path="/foodkhmer" element={<FoodKhmer />} />
         <Route path="/khmer" element={<Khmer />} />
         <Route path="/khmersweet" element={<Khmersweet />} />
+        <Route path="/drink" element={<Drink />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
@@ -36,6 +39,7 @@ const App = () => {
         <Route path="/orders" element={<Orders />} />
         <Route path="/address" element={<Address />} />
         <Route path="/settings" element={<Settings />} />
+        <Route path="/search" element={<SearchProduct />} />
       </Routes>
       <Footer />
 
